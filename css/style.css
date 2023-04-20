@@ -413,4 +413,41 @@ img {
   border-top: 2px solid rgba(75, 75, 75, 0.8431372549);
 }
 
+.contacto {
+  padding: 50px 0;
+  text-align: center;
+  align-items: center;
+  border: 3px solid #ccc;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+}
+
+.form-control {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 25px;
+}
+
+.boton-ingresar {
+  background-color: rgba(47, 96, 232, 0.8392156863);
+  color: white;
+  border-color: #000000;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.boton-consultar {
+  background-color: rgba(47, 96, 232, 0.8392156863);
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
