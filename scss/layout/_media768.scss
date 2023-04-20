@@ -51,8 +51,32 @@
         }
     }
 
+
+
     .footer-centro,
     .footer-derecha {
         margin-top: 20px;
+    }
+
+    .tienda {
+        flex-direction: column;
+        align-items: center;
+
+        .catalogo {
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        div {
+            
+            width: 100%;
+        }
+        .imagenes-tienda {
+            display: none;
+            width: 100%;
+            margin-bottom: 20px;
+    }
     }
 }

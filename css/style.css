@@ -193,6 +193,24 @@ footer {
   .footer-derecha {
     margin-top: 20px;
   }
+  .tienda {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tienda .catalogo {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .tienda div {
+    width: 100%;
+  }
+  .tienda .imagenes-tienda {
+    display: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 @media screen and (max-width: 1024px) {
   .search-box {
@@ -226,6 +244,14 @@ footer {
   font-size: 2vw;
   margin: 0;
 }
+.promo-index div {
+  width: 100%;
+}
+.promo-index .imagenes-tienda {
+  display: none;
+  width: 100%;
+  margin-bottom: 20px;
+}
 
 .click-aqui {
   background-color: black;
@@ -247,6 +273,45 @@ img {
 .h3-promo {
   background-color: rgba(206, 206, 206, 0.2862745098);
   text-transform: uppercase;
+}
+
+.tienda {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+.tienda h2 {
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+  font-size: 30px;
+}
+.tienda h3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0b3861;
+}
+.tienda .item {
+  padding: 40px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+.tienda .item p {
+  font-size: 12px;
+  margin: 10px 0;
+  color: #444;
+}
+.tienda div {
+  width: 70%;
+}
+.tienda div img {
+  display: block;
+  width: 80%;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
