@@ -189,9 +189,6 @@ footer {
   .nav-list .search-box {
     display: none;
   }
-  /*     footer {
-          flex-direction: column;
-      } */
   .footer-centro,
   .footer-derecha {
     margin-top: 20px;
