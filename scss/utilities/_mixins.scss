@@ -1,0 +1,13 @@
+@mixin titulos {
+    h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #4b4b4bd7;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-top: 20px;
+        border-top: 2px solid #4b4b4bd7;
+    }
+}
