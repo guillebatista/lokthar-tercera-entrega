@@ -1,0 +1,38 @@
+@media screen and (max-width: 1024px) {
+
+    .search-box {
+    
+            display: none;
+        }
+    }
+    .promo-index {
+        display: flex;
+        flex-wrap: wrap;
+        
+        img {
+            width: 70%;
+        }
+        .img-promo {
+            width: 70%;
+    
+            img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+        }
+    
+        .h3-promo {
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: #c3bfbf;
+    
+            h3 {
+                font-size: 2vw;
+                margin: 0;
+            }
+        }
+    }

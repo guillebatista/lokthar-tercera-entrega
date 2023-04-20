@@ -1,12 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header>
+        <a href="./index.html"><img class="logo" src="./assets/images/lok.png" alt="Logo"></a>
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./pages/novedades.html">Novedades</a></li>
+                <li><a href="./pages/tienda.html">Tienda</a></li>
+                <li><a href="./pages/empresa.html">Empresa</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="search-box">
+            <input type="text" placeholder="Buscar">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/Coderhouse" target="_blank"><img
+                        src="./assets/images/redes-sociales/facebook.png" alt="Facebook"></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><img
+                        src="./assets/images/redes-sociales/whatsapp.png" alt="whatsapp"></a>
+                <a href="https://lnk.bio/Coderhouse" target="_blank"><img
+                        src="./assets/images/redes-sociales/instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="click-aqui">
+            <p>haz click aqui y enterate de nuestras ofertas</p>
+        </div>
+        <div class="img-index">
+            <img src="./assets/images/imagenes-index/domo.jpg" alt="imagen camara domo">
+        </div>
+        <div class="promo-index">
+            <div class="img-promo">
+                <img src="./assets/images/colorvu.png" alt="imagen promocion">
+            </div>
+            <div class="h3-promo">
+                <h3>nueva linea de camaras color vu ,imagenes a color incluso en la noche. consulta aqui por los nuevos
+                    modelos</h3>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-izquierda">
+            <a href="./index.html"><img class="logo" src="./assets/images/lok.png" alt="Logo"></a>
+            <p>Visítanos en <a href="https://goo.gl/maps/o2PVseBdJqQxRds48" target="_blank">Nuestro Local</a></p>
+        </div>
+        <div class="footer-centro">
+            <h3>Empresa</h3>
+            <ul>
+                <li>Acerca de Nosotros</li>
+                <li>Servicio tecnico</li>
+                <li>Asistencia</li>
+                <li>Servicio Post Venta</li>
+            </ul>
+        </div>
+        <div class="footer-derecha">
+            <h3>Redes Sociales</h3>
+            <ul>
+                <a href="https://www.facebook.com/Coderhouse" target="_blank"><img
+                    src="./assets/images/redes-sociales/facebook.png" alt="Facebook"></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><img
+                    src="./assets/images/redes-sociales/whatsapp.png" alt="whatsapp"></a>
+            <a href="https://lnk.bio/Coderhouse" target="_blank"><img
+                    src="./assets/images/redes-sociales/instagram.png" alt="Instagram"></a>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./scss/js/main-index.js"></script>
 </body>
+
 </html>
