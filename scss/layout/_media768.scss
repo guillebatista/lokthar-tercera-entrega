@@ -114,3 +114,11 @@
         line-height: 1.5;
     }
 }
+.novedades {
+    justify-content: center;
+        }
+.cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}

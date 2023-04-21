@@ -11,3 +11,16 @@
         border-top: 2px solid #4b4b4bd7;
     }
 }
+
+@mixin card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+        "item1 item2 item3"
+        "item4 item5 item6"
+        "item7 item8 item9";
+    gap: 1rem;
+    grid-gap: 30px;
+    justify-items: center;
+}
